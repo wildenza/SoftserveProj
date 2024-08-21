@@ -1,0 +1,7 @@
+a b c d e f g
+
+resource "local_file" "fisier_test" {
+  filename ="./test.txt"
+  #
+  content = "alt msg"
+}
